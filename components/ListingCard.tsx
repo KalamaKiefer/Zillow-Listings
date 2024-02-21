@@ -23,7 +23,7 @@ export const ListingCard = ({ listing }: ListingCardProps) => {
                 <p>
                     {listing.city} {listing.state}, {listing.country}
                 </p>
-                <p className="text-black">Price: {listing.price}</p>
+                <p>Price: {listing.price}</p>
             </div>
         </div>
     );
